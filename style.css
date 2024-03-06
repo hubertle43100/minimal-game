@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1px;
+  border: 1px solid #000;
+  width: 300px; /* Adjust this width as needed */
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #000;
+  aspect-ratio: 1; /* Ensures the aspect ratio of each grid cell is 1:1 */
+}
